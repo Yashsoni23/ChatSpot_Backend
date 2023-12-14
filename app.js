@@ -1,6 +1,5 @@
 const express = require("express");
 const { GoogleGenerativeAI } = require("@google/generative-ai");
-const fs = require("fs");
 const bodyParser = require("body-parser");
 require("dotenv").config();
 
