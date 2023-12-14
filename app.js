@@ -5,7 +5,7 @@ require("dotenv").config();
 
 const app = express();
 const port = process.env.PORT || 3000;
-const API_KEY = process.env.PALM_API_KEY;
+const API_KEY = process.env.API_KEY;
 
 const genAI = new GoogleGenerativeAI(API_KEY);
 
