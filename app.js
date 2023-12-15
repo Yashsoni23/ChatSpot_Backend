@@ -23,7 +23,7 @@ function base64ToGenerativePart(base64String, mimeType) {
 app.get("/", (req, res) => {
   try {
     return res.json({
-      chatbot: "ChatSpot Backend readt!!!!",
+      chatbot: "Gemini Model Test Repo running successfully!!!!",
     });
   } catch (error) {
     console.log(error.message);
